@@ -5,14 +5,17 @@ import Navbar from './Components/Pages/Shared/Navbar';
 import Home from './Components/Pages/Home/Home';
 import About from './Components/Pages/About/About';
 import Login from './Components/Pages/Shared/Login';
+import Appointment from './Components/Pages/Appointment/Appointment';
 
 function App() {
   return (
-    <div >
+    <div className='max-w-7xl mx-auto' >
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}> </Route>
         <Route path='/about' element={<About/>}> </Route>
+        <Route path='appointment' element={<Appointment/>}> </Route>
+
         <Route path='/login' element={<Login/>}> </Route>
       </Routes>
     </div>
