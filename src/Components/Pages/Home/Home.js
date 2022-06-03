@@ -1,6 +1,8 @@
 import React from 'react';
+import Footer from '../Shared/Footer';
 import Appointment from './Appointment';
 import Banner from './Banner';
+import Contact from './Contact';
 import Exceptional from './Exceptional';
 import Info from './Info';
 import Services from './Services';
@@ -15,6 +17,8 @@ const Home = () => {
             <Exceptional/> 
             <Appointment/>
             <Testimonial/>
+            <Contact/>
+            <Footer/>
         </div>
     );
 };
