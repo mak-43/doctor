@@ -6,6 +6,7 @@ import Home from './Components/Pages/Home/Home';
 import About from './Components/Pages/About/About';
 import Login from './Components/Pages/Shared/Login';
 import Appointment from './Components/Pages/Appointment/Appointment';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
 
         <Route path='/login' element={<Login/>}> </Route>
       </Routes>
+      <ToastContainer />
     </div>
   );
 }

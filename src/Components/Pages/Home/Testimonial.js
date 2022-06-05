@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import quote from '../../Assets/icons/quote.svg'
 import p1 from '../../Assets/people1.png'
 import p2 from '../../Assets/people2.png'
 import p3 from '../../Assets/people3.png'
+import BookingModal from '../Appointment/BookingModal';
 import ReviewCard from './ReviewCard';
 const Testimonial = () => {
+  
     const reviews=[
         {
             _id:1,
@@ -48,6 +50,7 @@ const Testimonial = () => {
                     ></ReviewCard>)
                 }
             </div>
+          
         </section>
     );
 };
