@@ -4,9 +4,10 @@ import { Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Pages/Shared/Navbar';
 import Home from './Components/Pages/Home/Home';
 import About from './Components/Pages/About/About';
-import Login from './Components/Pages/Shared/Login';
+
 import Appointment from './Components/Pages/Appointment/Appointment';
 import { ToastContainer } from 'react-toastify';
+import Login from './Components/Pages/Login/Login';
 
 function App() {
   return (
